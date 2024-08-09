@@ -7,10 +7,8 @@ def main():
     data = find_all_values(navegador)
     df_ibovespa = criar_dataframe(data)
 
-    # Exibe o DataFrame
     print(df_ibovespa)
 
-    # Fecha o navegador
     navegador.quit()
 
 if __name__ == "__main__":
